@@ -1,6 +1,7 @@
 pub mod ray {
     use crate::vector3::vector3::Vec3;
 
+    #[derive(Copy, Clone)]
     pub struct Ray {
         pub origin: Vec3,
         pub dir: Vec3
@@ -14,7 +15,7 @@ pub mod ray {
             }
         }
 
-        pub fn fetch_origin(self) -> Vec3 {
+        pub fn origin(self) -> Vec3 {
             return self.origin;
         }
 
@@ -22,7 +23,7 @@ pub mod ray {
             return self.dir;
         }
 
-        pub fn at(self, t: f32) -> Vec3 {
+        pub fn at(self, t: f64) -> Vec3 {
             return self.origin + self.dir*t;
         }
 

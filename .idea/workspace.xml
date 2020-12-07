@@ -10,8 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1e0e48b-dc30-4551-8e24-9f5aa3ad4282" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ray.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.ppm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ray.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ray.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vector3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/vector3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.ppm" beforeDir="false" afterPath="$PROJECT_DIR$/test.ppm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +63,8 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="cargo run" />
       <command value="cargo build" />
+      <command value="cargo run" />
     </option>
   </component>
   <component name="RunManager" selected="Cargo.run">
@@ -97,8 +100,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cargo.run" />
-        <item itemvalue="Cargo.build" />
-        <item itemvalue="Cargo.build" />
+        <item itemvalue="Cargo.run" />
+        <item itemvalue="Cargo.run" />
         <item itemvalue="Cargo.build" />
         <item itemvalue="Cargo.build" />
       </list>
@@ -118,7 +121,7 @@
       <updated>1607314619172</updated>
       <workItem from="1607314621062" duration="40000" />
       <workItem from="1607314668578" duration="4872000" />
-      <workItem from="1607322394253" duration="3112000" />
+      <workItem from="1607322394253" duration="12186000" />
     </task>
     <servers />
   </component>
