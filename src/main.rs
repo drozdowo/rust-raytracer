@@ -5,18 +5,25 @@ use ray::ray::Ray;
 mod vector3;
 mod ray;
 
-fn hit_sphere(center: Vec3, radius: f64, ray: &Ray) -> bool {
+fn hit_sphere(center: Vec3, radius: f64, ray: &Ray) -> f64 {
     let oc = ray.origin - center;
     let a = ray.dir.dot_product(ray.dir);
     let b = 2.0 * oc.dot_product(ray.dir);
     let c = oc.dot_product(oc) - radius*radius;
     let discriminant = b*b - 4.0*a*c;
-    return discriminant > 0.0;
+    if discriminant < 0.0 {
+        return -1.0;
+    } else {
+        let x = (-b - discriminant.sqrt()) / (a * 2.0);
+        return x;
+    }
 }
 
 fn ray_color (ray: &Ray) -> Color {
-    if hit_sphere(Vec3{x: 0.0, y: 0.0, z: -1.0}, 0.5, &ray) {
-        return Color {x: 1.0, y:0.0, z: 0.0};
+    let t = hit_sphere(Vec3{x: 0.0, y: 0.0, z: -1.0}, 0.5, &ray);
+    if t > 0.0 {
+        let N = (ray.at(t) - Vec3 {x:0.0, y:0.0, z: -1.0}).unit_vector();
+        return Color {x: N.x+1.0, y: N.y+1.0, z: N.z+1.0} * 0.5;
     }
     let unit_dir = ray.dir.unit_vector();
     let t = 0.5*(unit_dir.y+1.0);

@@ -12,8 +12,6 @@
     <list default="true" id="f1e0e48b-dc30-4551-8e24-9f5aa3ad4282" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ray.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ray.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vector3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/vector3.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.ppm" beforeDir="false" afterPath="$PROJECT_DIR$/test.ppm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +100,7 @@
         <item itemvalue="Cargo.run" />
         <item itemvalue="Cargo.run" />
         <item itemvalue="Cargo.run" />
-        <item itemvalue="Cargo.build" />
+        <item itemvalue="Cargo.run" />
         <item itemvalue="Cargo.build" />
       </list>
     </recent_temporary>
@@ -121,7 +119,7 @@
       <updated>1607314619172</updated>
       <workItem from="1607314621062" duration="40000" />
       <workItem from="1607314668578" duration="4872000" />
-      <workItem from="1607322394253" duration="12186000" />
+      <workItem from="1607322394253" duration="14359000" />
     </task>
     <servers />
   </component>
